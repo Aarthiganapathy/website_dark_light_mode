@@ -228,8 +228,8 @@ export const Index = () => {
             <ScrollLink to="places-section" smooth duration={400}>
               <Button color="inherit">About</Button>
             </ScrollLink>
-            <Link to="/contact" style={{ textDecoration: "none" }}>
-              <Button color="inherit">Contact</Button>
+            <Link to="/Pricing" style={{ textDecoration: "none" }}>
+              <Button color="inherit">Pricing</Button>
             </Link>
             <Link to="/famous" style={{ textDecoration: "none" }}>
               <Button color="inherit">Famous</Button>
@@ -293,12 +293,12 @@ export const Index = () => {
               </Button>
             </ScrollLink>
             <Link
-              to="/contact"
+              to="/pricing"
               style={{ textDecoration: "none" }}
               onClick={() => setNavVisible(false)}
             >
               <Button fullWidth color="inherit">
-                Contact
+                pricing
               </Button>
             </Link>
             <Link
